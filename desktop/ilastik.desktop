@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=Ilastik
+GenericName=Ilastik
+X-GNOME-FullName=Ilastik
+Comment=Interactive Learning and Segmentation Toolkit
+Type=Application
+Categories=Education;Science;ImageProcessing;
+Exec=/ilastik/run_ilastik.sh %F
+TryExec=/ilastik/run_ilastik.sh
+Terminal=false
+StartupNotify=true
+MimeType=image/*;
+Icon=/ilastik/lib/python3.7/site-packages/ilastik/shell/gui/icons/96x96/ilastik-icon.png
+StartupWMClass=ilastik

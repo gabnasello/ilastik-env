@@ -1,0 +1,12 @@
+services:
+  ilastik-env:
+    image: gnasello/ilastik-env:2024-12-04
+    container_name: ilastik
+    security_opt:
+      - seccomp:unconfined # for terminal to work
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    ports:
+      - 3000:3000
